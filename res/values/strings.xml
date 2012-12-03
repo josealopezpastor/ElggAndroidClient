@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ElggAndroidClient</string>
+
+    
+    <!-- Pantalla principal -->
+    <string name="nombre">User</string>
+    <string name="password">Password</string>
+    <string name="acceder">Go!</string>
+    <string name="genx">ElggAndroidClient</string>
+    <string name="recordar">Remenber password</string>
+    <string name="tomar_foto">Take picture</string>
+    <string name="upload">Upload</string>
+    <string name="texto">List of images uploaded</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+   <TextView 
+       	android:id="@+id/toma_foto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24.5dp"
+        android:paddingBottom="14dp"
+        android:text="@string/texto"
+        />   
+        
+	<ListView
+	    android:id="@+id/list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/button_foto"
+	    android:layout_below="@id/toma_foto"
+	    android:paddingLeft="3dip"
+	    android:paddingRight="3dip" />
+   
+    <Button
+        android:id="@+id/button_foto"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/tomar_foto"
+		android:onClick="foto"
+		android:layout_alignParentBottom="true"
+	/>
+    
+</RelativeLayout>
